@@ -4,7 +4,7 @@
 
 $oAuth2:=New OAuth2 provider($params)
 
-$file:=File:C1566("/LOGS/"+Replace string:C233(String:C10(Current date:C33); "/"; "-")+" "+Replace string:C233(String:C10(Current time:C178); ":"; "")+"office365.json")
+$file:=File:C1566("/LOGS/"+Replace string:C233(String:C10(Current date:C33); "/"; "-")+" "+Replace string:C233(String:C10(Current time:C178); ":"; "")+" office365.json")
 $file.setText(JSON Stringify:C1217($oAuth2; *))
 
 Use ($token)
