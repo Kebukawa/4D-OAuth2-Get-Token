@@ -12,6 +12,10 @@ userPreferences.*/
 # Ignore data
 # Data/*
 
+# Ignore pem
+cert.pem
+key.pem
+
 # Ignore methods for test
 _*.4dm
 
