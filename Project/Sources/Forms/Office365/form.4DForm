@@ -16,7 +16,7 @@
 		"onTimer",
 		"onPageChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Office365のアクセストークンを得る",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -104,17 +104,17 @@
 				},
 				"Input4": {
 					"type": "input",
-					"left": 150,
-					"top": 300,
-					"width": 354,
-					"height": 17,
+					"left": 83,
+					"top": 226,
+					"width": 421,
+					"height": 113,
 					"dataSource": "Form:C1466.token",
 					"enterable": false
 				},
 				"Button1": {
 					"type": "button",
 					"text": "...",
-					"top": 298,
+					"top": 319,
 					"left": 507,
 					"width": 23,
 					"height": 20,
@@ -127,7 +127,7 @@
 				"Text4": {
 					"type": "text",
 					"text": "token:",
-					"top": 300,
+					"top": 226,
 					"left": 39,
 					"width": 80,
 					"height": 16
@@ -147,10 +147,10 @@
 				"Button save setting": {
 					"type": "button",
 					"text": "設定保存",
-					"top": 169,
+					"top": 174,
 					"left": 425,
 					"width": 100,
-					"height": 35,
+					"height": 30,
 					"events": [
 						"onClick"
 					],
@@ -202,7 +202,7 @@
 			}
 		}
 	],
-	"geometryStamp": 168,
+	"geometryStamp": 174,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
